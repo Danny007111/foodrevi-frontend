@@ -37,7 +37,7 @@ function App() {
   }
 
   const displayedReviews = reviews.filter((review) =>
-    review.body.toLowerCase().includes(search.toLowerCase())
+    review.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
