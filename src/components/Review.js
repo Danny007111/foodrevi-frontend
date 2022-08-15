@@ -26,7 +26,7 @@ function Review({ review, onReviewDelete, onUpdateReview }) {
           onUpdateReview={handleUpdateReview}
         />
           <button onClick={handleDeleteClick}>
-            <span role="img" aria-label="delete">
+            <span aria-label="delete">
               🗑
             </span>
           </button>
